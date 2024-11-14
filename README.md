@@ -4,11 +4,21 @@ This project involves building machine learning models to predict recidivism amo
 
 ## Project Structure
 
+## Dependencies
+
+Ensure you have the following Python libraries installed to run this project. You can install them via `pip`:
+
+```bash
+pip install pandas numpy scikit-learn imbalanced-learn tensorflow matplotlib
+```
+
 1. **Data Preprocessing**
     - **Imputation**: Handled missing values in both numerical and categorical columns to retain the dataset's integrity.
     - **One-Hot Encoding**: Encoded categorical variables to create a feature matrix suitable for machine learning.
     - **Scaling**: Standardized features for uniformity in model training.
     - **SMOTE**: Used SMOTE (Synthetic Minority Over-sampling Technique) to handle class imbalance, enhancing model stability on minority classes.
+  
+    - 
 
 2. **Models Implemented**
     - **Baseline Neural Network**: Trained to predict recidivism without adversarial influence.
